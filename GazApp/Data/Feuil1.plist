@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Nom ASHRAE</key>
+	<array>
+		<string>Choisissez Votre Gaz </string>
+		<string>R717</string>
+		<string>R718</string>
+		<string>R744</string>
+		<string>R290</string>
+		<string>HFO 1234 yf</string>
+		<string>HFO 1234 ze</string>
+		<string>R454C</string>
+		<string>R454A</string>
+		<string>R454B</string>
+		<string>R450A</string>
+		<string>R513A</string>
+		<string>R32</string>
+		<string>R448A</string>
+		<string>R449A</string>
+		<string>R134a</string>
+		<string>R453A</string>
+		<string>R407C</string>
+		<string>R22</string>
+		<string>R407F</string>
+		<string>R442A</string>
+		<string>R410A</string>
+		<string>R407A</string>
+		<string>R427A</string>
+		<string>R452A</string>
+		<string>R438A</string>
+		<string>R417A</string>
+		<string>R422D</string>
+		<string>R422A</string>
+		<string>R434A</string>
+		<string>R404A</string>
+		<string>R507</string>
+		<string>R23</string>
+	</array>
+	<key>Nom commercial</key>
+	<array>
+		<string></string>
+		<string>Ammoniac (NH3)</string>
+		<string>Eau</string>
+		<string>Dioxyde de carbone (CO2)</string>
+		<string>Propane</string>
+		<string>-</string>
+		<string>Solstice ZE</string>
+		<string>Solstice XL20</string>
+		<string>Solstice XL40</string>
+		<string>Solstice XL41</string>
+		<string>N13</string>
+		<string>XP10</string>
+		<string>-</string>
+		<string>N40</string>
+		<string>XP40</string>
+		<string>-</string>
+		<string>RS70</string>
+		<string>-</string>
+		<string>-</string>
+		<string>Performax LT</string>
+		<string>RS50</string>
+		<string>-</string>
+		<string>-</string>
+		<string>FX100</string>
+		<string>XP44</string>
+		<string>MO99</string>
+		<string>MO59</string>
+		<string>MO29</string>
+		<string>MO79</string>
+		<string>RS45</string>
+		<string>-</string>
+		<string>-</string>
+		<string>-</string>
+	</array>
+	<key>Type</key>
+	<array>
+		<string>-</string>
+		<string>Naturel</string>
+		<string>naturel</string>
+		<string>Naturel</string>
+		<string>Naturel</string>
+		<string>HFO</string>
+		<string>HFO</string>
+		<string>HFO/HFC</string>
+		<string>HFO/HFC</string>
+		<string>HFO/HFC</string>
+		<string>HFO/HFC</string>
+		<string>HFO/HFC</string>
+		<string>HFC</string>
+		<string>HFO/HFC</string>
+		<string>HFO/HFC</string>
+		<string>HFC</string>
+		<string>HFC</string>
+		<string>HFC</string>
+		<string>HCFC</string>
+		<string>HFC</string>
+		<string>HFC</string>
+		<string>HFC</string>
+		<string>HFC</string>
+		<string>HFC</string>
+		<string>HFO/HFC</string>
+		<string>HFC</string>
+		<string>HFC</string>
+		<string>HFC</string>
+		<string>HFC</string>
+		<string>HFC</string>
+		<string>HFC</string>
+		<string>HFC</string>
+		<string>HFC</string>
+	</array>
+	<key>GWP</key>
+	<array>
+		<string>0</string>
+		<string>0</string>
+		<string>0</string>
+		<string>1</string>
+		<string>3</string>
+		<string>4</string>
+		<string>7</string>
+		<string>148</string>
+		<string>239</string>
+		<string>466</string>
+		<string>604</string>
+		<string>633</string>
+		<string>675</string>
+		<string>1387</string>
+		<string>1397</string>
+		<string>1430</string>
+		<string>1664</string>
+		<string>1774</string>
+		<string>1810</string>
+		<string>1824</string>
+		<string>1888</string>
+		<string>2088</string>
+		<string>2107</string>
+		<string>2138</string>
+		<string>2141</string>
+		<string>2264</string>
+		<string>2347</string>
+		<string>2729</string>
+		<string>3144</string>
+		<string>3238</string>
+		<string>3922</string>
+		<string>3985</string>
+		<string>14800</string>
+	</array>
+	<key>annuelle</key>
+	<array>
+		<string>_</string>
+		<string>Non concerné</string>
+		<string>Non concerné</string>
+		<string>Non concerné</string>
+		<string>Non concerné</string>
+		<string>Non concerné</string>
+		<string>Non concerné</string>
+		<string>33,8 kg</string>
+		<string>20,9 kg</string>
+		<string>10,7 kg</string>
+		<string>8,3 kg</string>
+		<string>7,9 kg</string>
+		<string>7,4 kg</string>
+		<string>3,6 kg</string>
+		<string>3,6 kg</string>
+		<string>3,5 kg</string>
+		<string>3,0 kg</string>
+		<string>2,8 kg</string>
+		<string>2,8 kg</string>
+		<string>2,7 kg</string>
+		<string>2,6 kg</string>
+		<string>2,4 kg</string>
+		<string>2,4 kg</string>
+		<string>2,3 kg</string>
+		<string>2,3 kg</string>
+		<string>2,2 kg</string>
+		<string>2,1 kg</string>
+		<string>1,8 kg</string>
+		<string>1,6 kg</string>
+		<string>1,5 kg</string>
+		<string>1,3 kg</string>
+		<string>1,3 kg</string>
+		<string>0,3 kg</string>
+	</array>
+	<key>semestrielle</key>
+	<array>
+		<string>_</string>
+		<string>Non concerné</string>
+		<string>Non concerné</string>
+		<string>Non concerné</string>
+		<string>Non concerné</string>
+		<string>Non concerné</string>
+		<string>Non concerné</string>
+		<string>337,8 kg</string>
+		<string>209,2 kg</string>
+		<string>107,3 kg</string>
+		<string>82,8 kg</string>
+		<string>79,0 kg</string>
+		<string>74,1 kg</string>
+		<string>36,0 kg</string>
+		<string>35,8 kg</string>
+		<string>35,0 kg</string>
+		<string>30,0 kg</string>
+		<string>28,2 kg</string>
+		<string>27,6 kg</string>
+		<string>27,4 kg</string>
+		<string>26,5 kg</string>
+		<string>23,9 kg</string>
+		<string>23,7 kg</string>
+		<string>23,4 kg</string>
+		<string>23,4 kg</string>
+		<string>22,1 kg</string>
+		<string>21,3 kg</string>
+		<string>18,3 kg</string>
+		<string>15,9 kg</string>
+		<string>15,4 kg</string>
+		<string>12,7 kg</string>
+		<string>12,5 kg</string>
+		<string>3,4 kg</string>
+	</array>
+	<key>trimestrielle</key>
+	<array>
+		<string>_</string>
+		<string>Non concerné</string>
+		<string>Non concerné</string>
+		<string>Non concerné</string>
+		<string>Non concerné</string>
+		<string>Non concerné</string>
+		<string>Non concerné</string>
+		<string>3 378 kg</string>
+		<string>2 092 kg</string>
+		<string>1 073 kg</string>
+		<string>828 kg</string>
+		<string>790 kg</string>
+		<string>741 kg</string>
+		<string>360 kg</string>
+		<string>358 kg</string>
+		<string>350 kg</string>
+		<string>300 kg</string>
+		<string>282 kg</string>
+		<string>276 kg</string>
+		<string>274 kg</string>
+		<string>265 kg</string>
+		<string>239 kg</string>
+		<string>237 kg</string>
+		<string>234 kg</string>
+		<string>234 kg</string>
+		<string>221 kg</string>
+		<string>213 kg</string>
+		<string>183 kg</string>
+		<string>159 kg</string>
+		<string>154 kg</string>
+		<string>127 kg</string>
+		<string>125 kg</string>
+		<string>34 kg</string>
+	</array>
+</dict>
+</plist>
