@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF0D0EC9225E099F004D0EBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D0EC8225E099F004D0EBB /* AppDelegate.swift */; };
+		AF0D0ED0225E09A1004D0EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0D0ECF225E09A1004D0EBB /* Assets.xcassets */; };
+		AF0D0EDE225E09A1004D0EBB /* GazAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D0EDD225E09A1004D0EBB /* GazAppTests.swift */; };
+		AF0D0EE9225E09A1004D0EBB /* GazAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D0EE8225E09A1004D0EBB /* GazAppUITests.swift */; };
+		AF0D0EF8225E09DD004D0EBB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0D0EF6225E09DD004D0EBB /* Launch Screen.storyboard */; };
+		AF0D0EF9225E09DD004D0EBB /* Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0D0EF7225E09DD004D0EBB /* Storyboard_iPad.storyboard */; };
+		AF0D0F05225E0A0F004D0EBB /* CalculeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D0EFA225E0A0E004D0EBB /* CalculeViewController.swift */; };
+		AF0D0F06225E0A0F004D0EBB /* DSC01770.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF0D0EFB225E0A0E004D0EBB /* DSC01770.jpeg */; };
+		AF0D0F07225E0A0F004D0EBB /* Keypad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0D0EFC225E0A0E004D0EBB /* Keypad@2x.png */; };
+		AF0D0F08225E0A0F004D0EBB /* bouteil_gaz.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0D0EFD225E0A0E004D0EBB /* bouteil_gaz.png */; };
+		AF0D0F09225E0A0F004D0EBB /* Feuil1.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF0D0EFE225E0A0E004D0EBB /* Feuil1.plist */; };
+		AF0D0F0B225E0A0F004D0EBB /* Light_Bulb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0D0F00225E0A0E004D0EBB /* Light_Bulb@2x.png */; };
+		AF0D0F0C225E0A0F004D0EBB /* LOGO-Кегскшев .png in Resources */ = {isa = PBXBuildFile; fileRef = AF0D0F01225E0A0E004D0EBB /* LOGO-Кегскшев .png */; };
+		AF0D0F0D225E0A0F004D0EBB /* DSC01771.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF0D0F02225E0A0E004D0EBB /* DSC01771.jpeg */; };
+		AF0D0F0E225E0A0F004D0EBB /* Calculator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0D0F03225E0A0F004D0EBB /* Calculator@2x.png */; };
+		AF0D0F0F225E0A0F004D0EBB /* Ruler@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF0D0F04225E0A0F004D0EBB /* Ruler@2x.png */; };
+		AF0D0F2A225E0A95004D0EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0D0F29225E0A95004D0EBB /* Main.storyboard */; };
+		AF20FC80225E1F5400C9B528 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF20FC7F225E1F5300C9B528 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF0D0EDA225E09A1004D0EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF0D0EBD225E099F004D0EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF0D0EC4225E099F004D0EBB;
+			remoteInfo = GazApp;
+		};
+		AF0D0EE5225E09A1004D0EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF0D0EBD225E099F004D0EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF0D0EC4225E099F004D0EBB;
+			remoteInfo = GazApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF0D0EC5225E099F004D0EBB /* GazApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GazApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0D0EC8225E099F004D0EBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF0D0ECF225E09A1004D0EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF0D0ED4225E09A1004D0EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0D0ED9225E09A1004D0EBB /* GazAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GazAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0D0EDD225E09A1004D0EBB /* GazAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GazAppTests.swift; sourceTree = "<group>"; };
+		AF0D0EDF225E09A1004D0EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0D0EE4225E09A1004D0EBB /* GazAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GazAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0D0EE8225E09A1004D0EBB /* GazAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GazAppUITests.swift; sourceTree = "<group>"; };
+		AF0D0EEA225E09A1004D0EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0D0EF6225E09DD004D0EBB /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		AF0D0EF7225E09DD004D0EBB /* Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPad.storyboard; sourceTree = "<group>"; };
+		AF0D0EFA225E0A0E004D0EBB /* CalculeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculeViewController.swift; sourceTree = "<group>"; };
+		AF0D0EFB225E0A0E004D0EBB /* DSC01770.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC01770.jpeg; sourceTree = "<group>"; };
+		AF0D0EFC225E0A0E004D0EBB /* Keypad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Keypad@2x.png"; sourceTree = "<group>"; };
+		AF0D0EFD225E0A0E004D0EBB /* bouteil_gaz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bouteil_gaz.png; sourceTree = "<group>"; };
+		AF0D0EFE225E0A0E004D0EBB /* Feuil1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Feuil1.plist; sourceTree = "<group>"; };
+		AF0D0F00225E0A0E004D0EBB /* Light_Bulb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Light_Bulb@2x.png"; sourceTree = "<group>"; };
+		AF0D0F01225E0A0E004D0EBB /* LOGO-Кегскшев .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO-Кегскшев .png"; sourceTree = "<group>"; };
+		AF0D0F02225E0A0E004D0EBB /* DSC01771.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC01771.jpeg; sourceTree = "<group>"; };
+		AF0D0F03225E0A0F004D0EBB /* Calculator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calculator@2x.png"; sourceTree = "<group>"; };
+		AF0D0F04225E0A0F004D0EBB /* Ruler@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ruler@2x.png"; sourceTree = "<group>"; };
+		AF0D0F29225E0A95004D0EBB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AF20FC7F225E1F5300C9B528 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF0D0EC2225E099F004D0EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0D0ED6225E09A1004D0EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0D0EE1225E09A1004D0EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF0D0EBC225E099F004D0EBB = {
+			isa = PBXGroup;
+			children = (
+				AF0D0EC7225E099F004D0EBB /* GazApp */,
+				AF0D0EDC225E09A1004D0EBB /* GazAppTests */,
+				AF0D0EE7225E09A1004D0EBB /* GazAppUITests */,
+				AF0D0EC6225E099F004D0EBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF0D0EC6225E099F004D0EBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF0D0EC5225E099F004D0EBB /* GazApp.app */,
+				AF0D0ED9225E09A1004D0EBB /* GazAppTests.xctest */,
+				AF0D0EE4225E09A1004D0EBB /* GazAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF0D0EC7225E099F004D0EBB /* GazApp */ = {
+			isa = PBXGroup;
+			children = (
+				AF20FC7F225E1F5300C9B528 /* ViewController.swift */,
+				AF0D0F29225E0A95004D0EBB /* Main.storyboard */,
+				AF0D0EF6225E09DD004D0EBB /* Launch Screen.storyboard */,
+				AF0D0EF7225E09DD004D0EBB /* Storyboard_iPad.storyboard */,
+				AF0D0F28225E0A75004D0EBB /* TexteFieldEffect */,
+				AF0D0F10225E0A14004D0EBB /* Images */,
+				AF0D0EFA225E0A0E004D0EBB /* CalculeViewController.swift */,
+				AF0D0F2B225E0D6D004D0EBB /* Data */,
+				AF0D0EC8225E099F004D0EBB /* AppDelegate.swift */,
+				AF0D0ECF225E09A1004D0EBB /* Assets.xcassets */,
+				AF0D0ED4225E09A1004D0EBB /* Info.plist */,
+			);
+			path = GazApp;
+			sourceTree = "<group>";
+		};
+		AF0D0EDC225E09A1004D0EBB /* GazAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF0D0EDD225E09A1004D0EBB /* GazAppTests.swift */,
+				AF0D0EDF225E09A1004D0EBB /* Info.plist */,
+			);
+			path = GazAppTests;
+			sourceTree = "<group>";
+		};
+		AF0D0EE7225E09A1004D0EBB /* GazAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF0D0EE8225E09A1004D0EBB /* GazAppUITests.swift */,
+				AF0D0EEA225E09A1004D0EBB /* Info.plist */,
+			);
+			path = GazAppUITests;
+			sourceTree = "<group>";
+		};
+		AF0D0F10225E0A14004D0EBB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AF0D0EFD225E0A0E004D0EBB /* bouteil_gaz.png */,
+				AF0D0F03225E0A0F004D0EBB /* Calculator@2x.png */,
+				AF0D0EFB225E0A0E004D0EBB /* DSC01770.jpeg */,
+				AF0D0F02225E0A0E004D0EBB /* DSC01771.jpeg */,
+				AF0D0EFC225E0A0E004D0EBB /* Keypad@2x.png */,
+				AF0D0F00225E0A0E004D0EBB /* Light_Bulb@2x.png */,
+				AF0D0F01225E0A0E004D0EBB /* LOGO-Кегскшев .png */,
+				AF0D0F04225E0A0F004D0EBB /* Ruler@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AF0D0F28225E0A75004D0EBB /* TexteFieldEffect */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TexteFieldEffect;
+			sourceTree = "<group>";
+		};
+		AF0D0F2B225E0D6D004D0EBB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AF0D0EFE225E0A0E004D0EBB /* Feuil1.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF0D0EC4225E099F004D0EBB /* GazApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0D0EED225E09A1004D0EBB /* Build configuration list for PBXNativeTarget "GazApp" */;
+			buildPhases = (
+				AF0D0EC1225E099F004D0EBB /* Sources */,
+				AF0D0EC2225E099F004D0EBB /* Frameworks */,
+				AF0D0EC3225E099F004D0EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GazApp;
+			productName = GazApp;
+			productReference = AF0D0EC5225E099F004D0EBB /* GazApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF0D0ED8225E09A1004D0EBB /* GazAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0D0EF0225E09A1004D0EBB /* Build configuration list for PBXNativeTarget "GazAppTests" */;
+			buildPhases = (
+				AF0D0ED5225E09A1004D0EBB /* Sources */,
+				AF0D0ED6225E09A1004D0EBB /* Frameworks */,
+				AF0D0ED7225E09A1004D0EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF0D0EDB225E09A1004D0EBB /* PBXTargetDependency */,
+			);
+			name = GazAppTests;
+			productName = GazAppTests;
+			productReference = AF0D0ED9225E09A1004D0EBB /* GazAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF0D0EE3225E09A1004D0EBB /* GazAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0D0EF3225E09A1004D0EBB /* Build configuration list for PBXNativeTarget "GazAppUITests" */;
+			buildPhases = (
+				AF0D0EE0225E09A1004D0EBB /* Sources */,
+				AF0D0EE1225E09A1004D0EBB /* Frameworks */,
+				AF0D0EE2225E09A1004D0EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF0D0EE6225E09A1004D0EBB /* PBXTargetDependency */,
+			);
+			name = GazAppUITests;
+			productName = GazAppUITests;
+			productReference = AF0D0EE4225E09A1004D0EBB /* GazAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF0D0EBD225E099F004D0EBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "KERCK-WEB";
+				TargetAttributes = {
+					AF0D0EC4225E099F004D0EBB = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					AF0D0ED8225E09A1004D0EBB = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = AF0D0EC4225E099F004D0EBB;
+					};
+					AF0D0EE3225E09A1004D0EBB = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = AF0D0EC4225E099F004D0EBB;
+					};
+				};
+			};
+			buildConfigurationList = AF0D0EC0225E099F004D0EBB /* Build configuration list for PBXProject "GazApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF0D0EBC225E099F004D0EBB;
+			productRefGroup = AF0D0EC6225E099F004D0EBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF0D0EC4225E099F004D0EBB /* GazApp */,
+				AF0D0ED8225E09A1004D0EBB /* GazAppTests */,
+				AF0D0EE3225E09A1004D0EBB /* GazAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF0D0EC3225E099F004D0EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0D0EF8225E09DD004D0EBB /* Launch Screen.storyboard in Resources */,
+				AF0D0ED0225E09A1004D0EBB /* Assets.xcassets in Resources */,
+				AF0D0F0E225E0A0F004D0EBB /* Calculator@2x.png in Resources */,
+				AF0D0F0B225E0A0F004D0EBB /* Light_Bulb@2x.png in Resources */,
+				AF0D0F0C225E0A0F004D0EBB /* LOGO-Кегскшев .png in Resources */,
+				AF0D0F07225E0A0F004D0EBB /* Keypad@2x.png in Resources */,
+				AF0D0F0D225E0A0F004D0EBB /* DSC01771.jpeg in Resources */,
+				AF0D0F2A225E0A95004D0EBB /* Main.storyboard in Resources */,
+				AF0D0F09225E0A0F004D0EBB /* Feuil1.plist in Resources */,
+				AF0D0F06225E0A0F004D0EBB /* DSC01770.jpeg in Resources */,
+				AF0D0EF9225E09DD004D0EBB /* Storyboard_iPad.storyboard in Resources */,
+				AF0D0F08225E0A0F004D0EBB /* bouteil_gaz.png in Resources */,
+				AF0D0F0F225E0A0F004D0EBB /* Ruler@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0D0ED7225E09A1004D0EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0D0EE2225E09A1004D0EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF0D0EC1225E099F004D0EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF20FC80225E1F5400C9B528 /* ViewController.swift in Sources */,
+				AF0D0EC9225E099F004D0EBB /* AppDelegate.swift in Sources */,
+				AF0D0F05225E0A0F004D0EBB /* CalculeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0D0ED5225E09A1004D0EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0D0EDE225E09A1004D0EBB /* GazAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0D0EE0225E09A1004D0EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0D0EE9225E09A1004D0EBB /* GazAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF0D0EDB225E09A1004D0EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF0D0EC4225E099F004D0EBB /* GazApp */;
+			targetProxy = AF0D0EDA225E09A1004D0EBB /* PBXContainerItemProxy */;
+		};
+		AF0D0EE6225E09A1004D0EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF0D0EC4225E099F004D0EBB /* GazApp */;
+			targetProxy = AF0D0EE5225E09A1004D0EBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF0D0EEB225E09A1004D0EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF0D0EEC225E09A1004D0EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF0D0EEE225E09A1004D0EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S2LNV7NYV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GazApp",
+				);
+				INFOPLIST_FILE = GazApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerckweb.GazApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AF0D0EEF225E09A1004D0EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S2LNV7NYV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GazApp",
+				);
+				INFOPLIST_FILE = GazApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kerckweb.GazApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AF0D0EF1225E09A1004D0EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S2LNV7NYV;
+				INFOPLIST_FILE = GazAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KERCK-WEB.GazAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GazApp.app/GazApp";
+			};
+			name = Debug;
+		};
+		AF0D0EF2225E09A1004D0EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S2LNV7NYV;
+				INFOPLIST_FILE = GazAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KERCK-WEB.GazAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GazApp.app/GazApp";
+			};
+			name = Release;
+		};
+		AF0D0EF4225E09A1004D0EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S2LNV7NYV;
+				INFOPLIST_FILE = GazAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KERCK-WEB.GazAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GazApp;
+			};
+			name = Debug;
+		};
+		AF0D0EF5225E09A1004D0EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9S2LNV7NYV;
+				INFOPLIST_FILE = GazAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KERCK-WEB.GazAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GazApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF0D0EC0225E099F004D0EBB /* Build configuration list for PBXProject "GazApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0D0EEB225E09A1004D0EBB /* Debug */,
+				AF0D0EEC225E09A1004D0EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0D0EED225E09A1004D0EBB /* Build configuration list for PBXNativeTarget "GazApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0D0EEE225E09A1004D0EBB /* Debug */,
+				AF0D0EEF225E09A1004D0EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0D0EF0225E09A1004D0EBB /* Build configuration list for PBXNativeTarget "GazAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0D0EF1225E09A1004D0EBB /* Debug */,
+				AF0D0EF2225E09A1004D0EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0D0EF3225E09A1004D0EBB /* Build configuration list for PBXNativeTarget "GazAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0D0EF4225E09A1004D0EBB /* Debug */,
+				AF0D0EF5225E09A1004D0EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF0D0EBD225E099F004D0EBB /* Project object */;
+}
